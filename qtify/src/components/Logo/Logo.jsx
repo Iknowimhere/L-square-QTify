@@ -8,7 +8,7 @@ export default function Logo() {
       alt='logo'
       width={67}
       height={34}
-      style={{ marginLeft: '32px' }}
+      style={{ position: 'relative', left: '32px', top: '6px' }}
     />
   );
 }
