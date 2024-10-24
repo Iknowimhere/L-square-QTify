@@ -6,13 +6,11 @@ export default function Logo() {
     <img
       src={LogoImage}
       alt='logo'
-      width={67}
-      height={34}
+      width={'64px'}
+      height={'34px'}
       style={{
-        // position: 'relative',
+        display: 'block',
         marginLeft: '32px',
-        marginTop: '6px',
-        marginBottom: '0px',
       }}
     />
   );
