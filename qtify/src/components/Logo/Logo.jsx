@@ -9,8 +9,8 @@ export default function Logo() {
       width={67}
       height={34}
       style={{
-        position: 'relative',
-        left: '32px',
+        // position: 'relative',
+        marginLeft: '32px',
         marginTop: '6px',
         marginBottom: '0px',
       }}
