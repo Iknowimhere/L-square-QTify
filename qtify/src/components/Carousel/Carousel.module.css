@@ -1,0 +1,36 @@
+/* Wrapper styles for the left and right navigation buttons */
+.prevButton,
+.nextButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #ffffff; /* White background */
+  color: #00ff66; /* Bright green color */
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 24px;
+  font-weight: bold;
+  z-index: 10;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Light shadow for depth */
+}
+
+/* Position adjustments for left and right buttons */
+.prevButton {
+  left: 8px;
+}
+
+.nextButton {
+  right: 8px;
+}
+
+/* Styling for the inner icon to ensure proper alignment */
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
