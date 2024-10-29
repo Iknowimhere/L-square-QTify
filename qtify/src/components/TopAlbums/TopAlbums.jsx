@@ -7,7 +7,7 @@ import Carousel from '../Carousel/Carousel';
 const TopAlbums = () => {
   const [topAlbums, setTopAlbums] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [showCarousel, setShowCarousel] = useState(false);
+  const [showCarousel, setShowCarousel] = useState(true);
 
   const fetchAlbums = async () => {
     try {
@@ -39,7 +39,10 @@ const TopAlbums = () => {
       <Box
         sx={{ display: 'flex', width: '100%', justifyContent: 'space-between' }}
       >
-        <Typography sx={{ fontWeight: '400', fontSize: '20px' }}>
+        <Typography
+          variant='h5'
+          style={{ fontWeight: 'bold', color: 'white', marginBottom: '1rem' }}
+        >
           Top Albums
         </Typography>
         <Button
