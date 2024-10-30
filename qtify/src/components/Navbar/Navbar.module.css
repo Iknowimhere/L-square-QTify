@@ -9,5 +9,6 @@
   box-sizing: border-box;
 }
 .navbar img {
+  display: block;
   margin-left: 37px;
 }
