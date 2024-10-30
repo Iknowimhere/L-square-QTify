@@ -6,8 +6,6 @@ export default function Logo() {
     <img
       src={LogoImage}
       alt='logo'
-      width={'64px'}
-      height={'34px'}
       // style={{ display: 'block', marginLeft: '37' }}
     />
   );

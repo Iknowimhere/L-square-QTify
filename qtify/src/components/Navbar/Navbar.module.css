@@ -11,4 +11,6 @@
 .navbar img {
   display: block;
   margin-left: 37px;
+  height: 34px;
+  width: 64px;
 }
