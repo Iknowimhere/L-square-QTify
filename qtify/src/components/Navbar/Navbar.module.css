@@ -2,17 +2,17 @@
   background-color: var(--color-primary);
   height: 74px;
   width: 100vw;
-  padding: 0px 32px;
+  /* padding: 0px 32px; */
   display: flex;
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
 }
 .navbar img {
-  /* display: block; */
-  /* margin-left: 37px; */
-  position: relative;
+  display: block;
+  margin-left: 32px;
+  /* position: relative; */
   height: 34px;
   width: 64px;
-  left: 32px;
+  /* left: 32px; */
 }
